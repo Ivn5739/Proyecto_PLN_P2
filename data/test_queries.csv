@@ -1,0 +1,31 @@
+texto,intent_true
+Hola buen día,saludo
+necesito informacion por favor,saludo
+muchas gracias adiós,despedida
+chao nos vemos,despedida
+¿cuando me inscribo?,consulta_fecha_inscripcion_postulacion
+fechas para postulaciones 2026,consulta_fecha_inscripcion_postulacion
+mi cedula termina en 5 cuando me toca,consulta_fecha_inscripcion_postulacion
+¿donde rindo el examen de admision?,consulta_examen_admision
+horario de la prueba,consulta_examen_admision
+¿que temas toman en el examen?,consulta_temario_examen_admision
+temario para medicina,consulta_temario_examen_admision
+como se calculan los puntos,consulta_asignacion_cupos
+quiero saber como acepto el cupo,consulta_aceptacion_cupo
+que es la nivelacion de carrera,consulta_que_es_nivelacion
+es obligatorio el curso de nivelacion,consulta_que_es_nivelacion
+cuando son las matriculas para nivelacion,consulta_fechas_matricula_nivelacion
+requisitos para matricularme en nivelacion,consulta_requisitos_matricula_nivelacion
+necesito la foto para la matricula,consulta_requisitos_matricula_nivelacion
+quiero retirarme de nivelacion,consulta_retiro_nivelacion
+cuando empiezan las clases en junio,consulta_inicio_clases_nivelacion
+como se aprueba el curso,consulta_aprobacion_nivelacion
+cual es la nota minima para pasar,consulta_aprobacion_nivelacion
+como entro al zoom de las clases,consulta_plataformas_virtuales
+no puedo entrar al moodle,consulta_plataformas_virtuales
+¿que carreras hay en el bloque de salud?,consulta_carreras_bloque
+dame la lista de ingenierias,consulta_carreras_bloque
+¿cuanto dura la carrera de medicina?,consulta_duracion_carrera
+duracion de ingenieria de software,consulta_duracion_carrera
+cuantos semestres son para enfermeria,consulta_duracion_carrera
+quiero comprar una pizza,fallback
