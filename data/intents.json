@@ -1,0 +1,326 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": [
+        "Hola",
+        "Buenos días",
+        "Buenas tardes",
+        "Buenas noches",
+        "Qué tal",
+        "Hey",
+        "Necesito ayuda"
+      ],
+      "responses": [
+        "¡Hola! Soy el asistente virtual de la Universidad de Guayaquil. Pregúntame sobre admisión, nivelación o carreras."
+      ]
+    },
+    {
+      "tag": "despedida",
+      "patterns": [
+        "Adiós",
+        "Hasta luego",
+        "Gracias, eso es todo",
+        "Nos vemos",
+        "Chao"
+      ],
+      "responses": [
+        "Gracias por consultar. Estoy aquí cuando me necesites. \n¡Mucha suerte en tu proceso! Hasta pronto."
+      ]
+    },
+    {
+      "tag": "identidad_bot",
+      "patterns": [
+        "quien eres",
+        "como te llamas",
+        "eres un robot",
+        "eres una persona real",
+        "que eres tu",
+        "con quien hablo",
+        "eres humano"
+      ],
+      "responses": [
+            "Soy un asistente virtual basado en reglas de PLN. \nEstoy aqui para ayudarte con dudas sobre admision, nivelacion y la UG en general."
+         ]
+    },
+    {
+      "tag": "consulta_fecha_inscripcion_postulacion",
+      "patterns": [
+        "¿Cuando debo inscribirme si mi cédula es 0928656735?",
+        "¿Si mi cédula es 0928656735 cuando debo postularme?",
+        "¿Según mi cédula cuando debo postularme?",
+        "¿Según mi cédula cuando debo inscribirme?",
+        "Las inscripciones en ",
+        "Las inscripciones son ",
+        "Las postulaciones en ",
+        "Las postulaciones son ",
+        "¿Cuándo son las inscripciones?",
+        "¿Cuándo son las postulaciones?",
+        "¿En qué día me toca crear la cuenta?",
+        "¿Qué día inscribirme según mi cédula?",
+        "Inscripción",
+        "Postulación",
+        "Inscripciones",
+        "Postulaciones",
+        "¿Cuándo se seleccionan las carreras?",
+        "Calendario de inscripción"
+      ],
+      "responses": [
+        "La creación de cuenta y selección de carreras se realiza según el último dígito de tu cédula:\n- Dígitos 1 y 2: 13 de julio de 2026\n- Dígitos 3 y 4: 14 de julio\n- Dígitos 5 y 6: 15 de julio\n- Dígitos 7 y 8: 16 de julio\n- Dígitos 9 y 0: 17 de julio\n- Todos los dígitos: desde el 18 hasta el 20 de julio de 2026."
+      ]
+    },
+    {
+      "tag": "consulta_examen_admision",
+      "patterns": [
+        "¿A qué hora es el examen?",
+        "Fecha del examen de admisión",
+        "¿Cuándo se realizará el examen?",
+        "¿Dónde veo la fecha de mi evaluación?",
+        "¿Dónde veo la fecha de mi examen",
+        "¿Cómo sé el lugar de la prueba de admisión?",
+        "¿Cómo sé el lugar del examen?",
+        "Cronograma de evaluaciones",
+        "Cronograma de pruebas de admision",
+        "¿Cuándo me toca realizar el examen?",
+        "¿Cuándo me toca realizar la prueba?"
+      ],
+      "responses": [
+        "La fecha, hora y lugar de tu evaluación aparecerán en tu cuenta del sistema institucional de admisión de la Universidad de Guayaquil. \nRevisa constantemente tu perfil una vez finalizada la etapa de inscripción."
+      ]
+    },
+    {
+      "tag": "consulta_temario_examen_admision",
+      "patterns": [
+        "Cuáles son los temarios?",
+        "¿Qué se tomará en el examen?",
+        "¿Qué se evalúa en el examen?",
+        "¿En qué consiste el examen?",
+        "¿En qué consiste la prueba de admisión?",
+        "¿Qué temas vienen en el examen?",
+        "¿Qué temas vienen en el examen de admisión?",
+        "Contenido de la prueba de admisión",
+        "Contenido del examen de admisión",
+        "¿Es difícil el examen de admision?",
+        "¿El examen es fácil?",
+        "Preguntas del examen de admision",
+        "Temarios del examen de admision"
+      ],
+      "responses": [
+        "El examen de admisión evaluará los conocimientos de los aspirantes según el bloque de conocimiento de las carreras seleccionadas."
+      ]
+    },
+    {
+      "tag": "consulta_asignacion_cupos",
+      "patterns": [
+        "¿Cómo se asignan los cupos?",
+        "¿Qué es el puntaje de postulación?",
+        "¿Cómo se calcula el puntaje para entrar?",
+        "Asignación de cupos",
+        "¿Cómo consigo un cupo en la universidad?",
+        "¿Cómo obtener un cupo?"
+      ],
+      "responses": [
+        "La asignación de cupos es un proceso automatizado. Tu puntaje de postulación se calcula así: \n50% nota del examen de admisión + 50% antecedentes académicos."
+      ]
+    },
+    {
+      "tag": "consulta_aceptacion_cupo",
+      "patterns": [
+        "Aceptación de cupo",
+        "Rechazo de cupo",
+        "¿Qué es la primera aceptación?",
+        "¿Cómo acepto el cupo?",
+        "Aceptación de cupo",
+        "¿Puedo rechazar el cupo?",
+        "Primera, segunda y tercera aceptación"
+      ],
+      "responses": [
+        "La aceptación es un acto voluntario que se asigna según las fechas del calendario académico. \nUna vez asignado un cupo, debes aceptarlo o rechazarlo a través de la plataforma del MINEDEC. \nLe recordamos que este proceso existe en la primera, segunda y tercera aceptación según las postulaciones."
+      ]
+    },
+    {
+      "tag": "consulta_segunda_tercera_postulacion",
+      "patterns": [
+        "¿Puedo volver a postular si no quedo?",
+        "¿Puedo volver a postular si no consigo un cupo?",
+        "¿Cómo funciona la segunda postulación?",
+        "Tercera postulación",
+        "Segunda oportunidad para carrera",
+        "Repostulación"
+      ],
+      "responses": [
+        "En la segunda y tercera postulación puedes seleccionar hasta dos opciones de carrera que aún tengan cupos, \nsiempre que pertenezcan al mismo bloque de conocimiento. Después de cada postulación hay un periodo de aceptación."
+      ]
+    },
+    {
+      "tag": "consulta_que_es_nivelacion",
+      "patterns": [
+        "¿Qué se aprende en nivelación?",
+        "¿Qué se estudia en nivelación?",
+        "¿Qué se hace en nivelación?",
+        "¿Cuál es la utilidad de la nivelación?",
+        "¿Es obligatoria la nivelación?",
+        "¿Cuál es la importancia de la nivelación?",
+        "¿Cuál es la necesidad de la nivelación?",
+        "¿Por qué hacer nivelación?"
+      ],
+      "responses": [
+        "El Curso de Nivelación de Carrera es obligatorio para todos los estudiantes admitidos. \nEl curso fortalecerá conocimientos, destrezas y habilidades fundamentales antes de iniciar la formación universitaria."
+      ]
+    },
+    {
+      "tag": "consulta_fechas_matricula_nivelacion",
+      "patterns": [
+        "¿Cuando son las matriculaciones?",
+        "¿Cuándo debo matricularme?",
+        "¿Cuál es la fecha de matriculación",
+        "Matrícula ordinaria y extraordinaria",
+        "¿Hasta cuándo puedo matricularme?",
+        "Matricularme para nivelación"
+      ],
+      "responses": [
+        "Matrícula ordinaria online: desde el 18 al 24 de mayo de 2026.\nMatrícula extraordinaria online: desde el 25 al 31 de mayo de 2026."
+      ]
+    },
+    {
+      "tag": "consulta_requisitos_matricula_nivelacion",
+      "patterns": [
+        "Cumplir requisitos de matriculación",
+        "Requisitos para matricularme",
+        "Cumplir requisitos",
+        "¿Necesito foto para la matrícula?",
+        "Documentos para matricularme",
+        "¿Qué documentos necesito para matricularme?",
+        "Requisitos matrícula",
+        "Papeles para matrícula",
+        "Presentar para matricularme",
+        "¿Qué necesito para matricularme?"
+      ],
+      "responses": [
+        "Requisitos:\n- Foto JPG (200-400 kb, fondo blanco, tamaño carné, a color)\n- Cédula de ciudadanía o pasaporte actualizados\n- Certificado de votación (si aplica)\n- Título de bachiller reconocido por el Ministerio de Educación"
+      ]
+    },
+    {
+      "tag": "consulta_retiro_nivelacion",
+      "patterns": [
+        "Retirarme de nivelación",
+        "Deseo salir de nivelación",
+        "¿Puedo retirarme de la nivelación?",
+        "Retiro voluntario",
+        "Retiro por caso fortuito",
+        "Retiro por caso de fuerza mayor",
+        "¿Hasta cuándo puedo salirme de nivelación?",
+        "Cancelar el curso nivelación"
+      ],
+      "responses": [
+        "Retiro voluntario: del 18 al 31 de mayo de 2026.\nRetiro por caso fortuito o fuerza mayor (con justificativos): del 1 de junio al 7 de agosto de 2026."
+      ]
+    },
+    {
+      "tag": "consulta_inicio_clases_nivelacion",
+      "patterns": [
+        "¿Cuando es el ingreso a nivelación?",
+        "¿Cuándo empiezan las clases de nivelación?",
+        "¿Cuándo comienzan las clases de nivelación?",
+        "Inicio de clases de nivelación",
+        "Fecha de comienzo del curso de nivelación"
+      ],
+      "responses": [
+        "Las clases del Curso de Nivelación comienzan el 2 de junio de 2026."
+      ]
+    },
+    {
+      "tag": "consulta_desarrollo_nivelacion",
+      "patterns": [
+        "¿Cómo es el curso de nivelación?",
+        "¿Qué porcentaje es práctico y teórico?",
+        "Estructura del curso de nivelación",
+        "División del curso de nivelación"
+      ],
+      "responses": [
+        "El curso se divide en:\n- 60%: gestión formativa, práctica y autónoma de los aprendizajes.\n- 40%: acreditación y validación de los aprendizajes."
+      ]
+    },
+    {
+      "tag": "consulta_aprobacion_nivelacion",
+      "patterns": [
+        "¿Cómo se aprueba la nivelación?",
+        "Nota mínima para pasar",
+        "Nota mínima para aprobar",
+        "¿Cuánto necesito para aprobar el curso?",
+        "Asistencia requerida en nivelación"
+      ],
+      "responses": [
+        "Debes cursar todas las asignaturas, tener un promedio mínimo de 70% de asistencia y obtener al menos 7/10 en cada una de ellas."
+      ]
+    },
+    {
+      "tag": "consulta_plataformas_virtuales",
+      "patterns": [
+        "¿Cómo entro al moodle?",
+        "¿Cómo entro al zoom?",
+        "¿Cuando entrar al zoom?",
+        "¿Qué plataformas se usan en la nivelación?",
+        "Campus virtual",
+        "Zoom para clases",
+        "Aula virtual",
+        "¿Dónde veo las clases virtuales?",
+        "¿Qué recursos utiliza la universidad de guayaquil?"
+      ],
+      "responses": [
+        "Se utilizan:\n- Campus Virtual (Moodle): para actividades y materiales.\n- Aula Virtual (Zoom): para clases sincrónicas. Accede desde el SIUG: Académico → Estudiante → Horarios → Clases Virtuales."
+      ]
+    },
+    {
+      "tag":"consultar_canales_contacto",
+      "patterns":[
+        "donde puedo preguntar mis dudas",
+        "hay algun telegram de admision",
+        "como contacto a la coordinacion de admision",
+        "redes sociales oficiales de admision UG",
+        "existe un canal de telegram para dudas",
+        "donde sigo las novedades de admision",
+        "como me comunico con la coordinacion de admision",
+        "redes oficiales para consultas"
+      ],
+      "responses": [
+            "Puedes seguir los canales oficiales: Facebook 'Admision UG' e Instagram 'Coordinacion de Admision y Nivelacion' para comunicados. \nTambién puedes revisar el portal https://admision.ug.edu.ec/admision/."
+         ]
+      },
+    {
+      "tag": "consulta_carreras_bloque",
+      "patterns": [
+        "Saber sobre las carreras de la Universidad de Guayaquil",
+        "Carreras de la UG",
+        "¿Qué carreras hay en el bloque de salud?",
+        "Dame carreras de ingeniería",
+        "Carreras de administración",
+        "Bloque de educación",
+        "Opciones en ciencias sociales"
+      ],
+      "responses": [
+        "Puedo buscar carreras por bloque. Por favor dime el nombre del bloque (Salud, Administrativas, Educación, Ingeniería/Industria, Sociales/Jurisprudencia, Básicas/Ambientales)."
+      ]
+    },
+    {
+      "tag": "consulta_duracion_carrera",
+      "patterns": [
+        "¿Cuánto dura medicina?",
+        "Duración de enfermería",
+        "Semestres de derecho",
+        "¿Cuántos semestres son de arquitectura?",
+        "Tiempo de ingeniería civil"
+      ],
+      "responses": [
+        "Depende de la carrera. Dime el nombre exacto y te confirmo la duración."
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": [
+        "Disculpa, no entendí tu pregunta. ¿Podrías reformularla? Recuerda que puedo ayudarte con admisión, nivelación y carreras de la UG."
+      ]
+    }
+  ]
+}
