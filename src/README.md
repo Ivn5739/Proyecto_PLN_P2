@@ -21,7 +21,6 @@ relevantes como cédula, fechas y carreras.
 ├── src/
 │   └── PLN_ProyectoP2.ipynb # Notebook principal: preprocesamiento, TF-IDF, detección de intención,
 │                             # extracción de entidades, chat por consola y evaluación
-├── app.py                   # Interfaz web del agente (Streamlit)
 ├── README.md
 └── informe.pdf              # Informe técnico (3-4 páginas) con justificación de decisiones de diseño
 ```
