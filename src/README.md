@@ -45,16 +45,6 @@ pip install scikit-learn pandas nltk unidecode streamlit requests
 4. Al finalizar el chat se ejecuta automáticamente la evaluación sobre `test_queries.csv`, mostrando
    **accuracy** y **F1-macro**, y generando `evaluation_results.csv` con el detalle por consulta.
 
-### Opción 2: Interfaz web (Streamlit)
-
-1. Colocar `app.py`, `intents.json` y `entities.json` en la misma carpeta.
-2. Ejecutar:
-   ```
-   streamlit run app.py
-   ```
-3. Se abrirá una interfaz de chat en el navegador donde se puede escribir la consulta y ver la
-   intención detectada junto con el puntaje de similitud.
-
 ## Características principales
 
 - **Preprocesamiento**: minúsculas, eliminación de puntuación, normalización de tildes (unidecode),
